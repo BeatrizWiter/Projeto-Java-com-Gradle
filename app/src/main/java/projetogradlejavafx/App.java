@@ -13,14 +13,14 @@ public class App extends Application {
 	
 
     public static void main(String[] args) {
-    	Launch();
+    	launch();
     }
 
 
 	@Override
 	public void start(Stage palco) throws Exception {
 		
-	       Parent root = FXMLLoader.load(getClass().getResource("TelaPrincipal.fxml"));
+	       Parent root = FXMLLoader.load(getClass().getResource("/TelaPrincipal.fxml"));
 	       
 	        Scene scene = new Scene(root, 300, 275);
 	    
